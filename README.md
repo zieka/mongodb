@@ -41,10 +41,11 @@ mongoimport --db test --collection zips --drop --file zips.json
 ```
 
 ##Ruby Gems to integrate MongoDB
-
+```ruby
 gem update
 gem install mongo
 gem install bson_ext
+```
 
 ##Elixir hex to integrate MongoDB
 mix.exs:
